@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I have not decided yet, but I am leaning towards vim for its simplicity and versatility.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I am also leaning towards vim for its simplicity and versatility. Interesting features include the editor being free and open-source, it being relatively friendly to international languages compared to other editors and its configuration is portable. Moreover, Some useful keyboard shortcuts include A (append at the end of line) and B (jump backward by words). Lastly, there seem to be a million different ways to customize the editor.
 
  
