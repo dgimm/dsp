@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > show current working directory path = pwd  
-creating a directory = mkdir
-deleting a directory = rm =r
-creating a file = touch
-deleting a file = rm
-renaming a file = mv
-listing hidden files = ls -a
-copying a file from one directory to another = cp
-selecting all files in a directory = *
-listing files in long format = ls -l
-printing unique lines = uniq
+creating a directory = mkdir  
+deleting a directory = rm =r  
+creating a file = touch  
+deleting a file = rm  
+renaming a file = mv  
+listing hidden files = ls -a  
+copying a file from one directory to another = cp  
+selecting all files in a directory = *  
+listing files in long format = ls -l  
+printing unique lines = uniq  
 
 ---
 
@@ -44,13 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` = lists all files and directories in a directory
-`ls -a`  = lists all contents in a directory including hidden files
-`ls -l`  = lists all files in a directory in long format
-`ls -lh` = lists all files in a directory in long format with file size
-`ls -lah` = lists all contents in a directory including hidden files with file size
-`ls -t`  = lists all files by modification time
-`ls -Glp` = lists all files in long format without owner name and directories with /
+> > `ls` = lists all files and directories in a directory  
+`ls -a`  = lists all contents in a directory including hidden files  
+`ls -l`  = lists all files in a directory in long format  
+`ls -lh` = lists all files in a directory in long format with file size  
+`ls -lah` = lists all contents in a directory including hidden files with file size  
+`ls -t`  = lists all files by modification time  
+`ls -Glp` = lists all files in long format without owner name and directories with /  
 
 ---
 
