@@ -8,7 +8,7 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 ### Q1.  Cheat Sheet of Commands  
 
 Here's a list of items with which you should be familiar:  
-* show current working directory path
+* show current working directory path  
 * creating a directory
 * deleting a directory
 * creating a file using `touch` command
