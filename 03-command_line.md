@@ -19,7 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > show current working directory path = pwd
+creating a directory = mkdir
+deleting a directory = rm =r
+creating a file = touch
+deleting a file = rm
+renaming a file = mv
+listing hidden files = ls -a
+copying a file from one directory to another = cp
+selecting all files in a directory = *
+listing files in long format = ls -l
+printing unique lines = uniq
 
 ---
 
@@ -34,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` = lists all files and directories in a directory
+`ls -a`  = lists all contents in a directory including hidden files
+`ls -l`  = lists all files in a directory in long format
+`ls -lh` = lists all files in a directory in long format with file size
+`ls -lah` = lists all contents in a directory including hidden files with file size
+`ls -t`  = lists all files by modification time
+`ls -Glp` = lists all files in long format without owner name and directories with /
 
 ---
 
@@ -42,7 +58,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > My favorites are -u, c, m, r and d.
 
 ---
 
@@ -50,7 +66,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs builds and executes command lines from standard input on one or more times with initial arguments.
+As an example, the following command "$ echo 1 2 3 4 | xargs" will print 1 2 3 4 using xargs.
 
  
 
