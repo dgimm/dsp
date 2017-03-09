@@ -173,7 +173,7 @@ What is the most installed language in the world?
 - Spark
 - Javascript
 
->>Javascript
+>>The most installed language in the world is **Javascript**.
 
 -
 
@@ -186,7 +186,7 @@ What is the distribution of t-squared?
  * Beta
  * Bivariate Normal
 
->>F
+>>The distribution of t-squared is **F**.
 
 ***
 
@@ -197,7 +197,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 3. 700  
 4. 7000  
 
->>700
+>>There are about **700** issues outstanding.
 
 ---
 
