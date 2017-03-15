@@ -41,7 +41,7 @@ Lambda function that triples the input value.
 triple = lambda x: x * 3
 print (triple(3))
 
-Example ii:
+>> Example ii:
 """
 Lambda function that sorts the list in custom order.
 """
@@ -49,7 +49,7 @@ grocery = [{'pomegranate': 3, 'blueberry': 1, 'cherry': 6}, {'pomegranate': 5, '
 grocery.sort(key=lambda x: x['cherry'])
 print(grocery)
 
-Example iii:
+>> Example iii:
 """
 Lambda function that filters out odd numbers.
 """
@@ -65,7 +65,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehension is a tool for deriving one list from an existing list. Each element in the list can be transformed as needed. Map is used to build one list while building another, whereas filter is used to only select some of the elements using conditional statements. Below are examples and equivalents with map and filter, followed by examples of set comprehension and dictionary comprehension.
 
-Map:
+>> Map:
 
 def add(x):
     add = []
