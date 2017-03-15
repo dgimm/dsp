@@ -67,30 +67,34 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> Map:
 
-def add(x):
+>> def add(x):
     add = []
     for i in x:
         add.append(i + 2)
     return add
     
-def add(x):
+>> def add(x):
     return [i + 2 for i in x]
 
-Filter:
+>> Filter:
 
-def even(x):
+>> def even(x):
     even = []
     for i in x:
         if i % 2 == 0:
             even.append(i)
     return even
 
-def even(x):
+>> def even(x):
     return [i for i in x if i % 2 == 0]
 
-{x**2 for x in range(10)}
+>> Set:
 
-{x: x**2 for x in range(5)}
+>> {x**2 for x in range(10)}
+
+>> Dictionary:
+
+>> {x: x**2 for x in range(5)}
 
 ---
 
