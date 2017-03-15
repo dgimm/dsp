@@ -14,7 +14,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >> Lists and tuples are similar in that they are both types of sequences. This means each element of these sequences are assigned an index and Python provides built-in functions to measure their length.
 
-However, tuples are not as versatile as lists and one major difference is that tuples are immutable. As an example, modifying a list will affect the list itself and not return a modified list. Moreover, lists use square brackets whereas tuples use parentheses. Lastly, tuples will work as keys in dictionaries since keys have to be immutable objects.
+>> However, tuples are not as versatile as lists and one major difference is that tuples are immutable. As an example, modifying a list will affect the list itself and not return a modified list. Moreover, lists use square brackets whereas tuples use parentheses. Lastly, tuples will work as keys in dictionaries since keys have to be immutable objects.
 
 ---
 
@@ -22,11 +22,9 @@ However, tuples are not as versatile as lists and one major difference is that t
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> In contrast to lists, sets are unordered, cannot contain duplicates and are also immutable. As a result, sets are preferred over lists when membership is more important than order or frequency.
+>> In contrast to lists, sets are unordered, cannot contain duplicates and are also immutable. As a result, sets are preferred over lists when membership is more important than order or frequency. Moreover, values in sets are hashable. Therefore, checking membership is generally faster with sets than lists.
 
-Moreover, values in sets are hashable. Therefore, checking membership is generally faster with sets than lists.
-
-A wedding registry would be an example of a list. You have a list of desired items in order and the list can be modified. On the other hand, G20 is an example of a set as membership is very important and order does not play a significant role.
+>> A wedding registry would be an example of a list. You have a list of desired items in order and the list can be modified. On the other hand, G20 is an example of a set as membership is very important and order does not play a significant role.
 
 ---
 
@@ -36,7 +34,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> Lambda is a tool for building anonymous function objects. It takes parameters and a single expression, and the value of the expression is evaluated and returned. It is used when a relatively simple function is only expected to be used once (e.g., functions that take in other functions as arguments). Using lambda can improve the readability of the program as well.
 
-Example i:
+>> Example i:
 """
 Lambda function that triples the input value.
 """
