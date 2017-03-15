@@ -14,9 +14,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >> Lists and tuples are similar in that they are both types of sequences. This means each element of these sequences are assigned an index and Python provides built-in functions to measure their length.
 
-However, tuples are not as versatile as lists and one major difference is that tuples are immutable. As an example, modifying a list will affect the list itself and not return a modified list. Moreover, lists use square brackets whereas tuples use parentheses.
-
-Lastly, tuples will work as keys in dictionaries since keys have to be immutable objects.
+However, tuples are not as versatile as lists and one major difference is that tuples are immutable. As an example, modifying a list will affect the list itself and not return a modified list. Moreover, lists use square brackets whereas tuples use parentheses. Lastly, tuples will work as keys in dictionaries since keys have to be immutable objects.
 
 ---
 
