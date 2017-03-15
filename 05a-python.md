@@ -12,7 +12,11 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and tuples are similar in that they are both types of sequences. This means each element of these sequences are assigned an index and Python provides built-in functions to measure their length.
+
+However, tuples are not as versatile as lists and one major difference is that tuples are immutable. As an example, modifying a list will affect the list itself and not return a modified list. Moreover, lists use square brackets whereas tuples use parentheses.
+
+Lastly, tuples will work as keys in dictionaries since keys have to be immutable objects.
 
 ---
 
@@ -20,7 +24,11 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In contrast to lists, sets are unordered, cannot contain duplicates and are also immutable. As a result, sets are preferred over lists when membership is more important than order or frequency.
+
+Moreover, values in sets are hashable. Therefore, checking membership is generally faster with sets than lists.
+
+A wedding registry would be an example of a list. You have a list of desired items in order and the list can be modified. On the other hand, G20 is an example of a set as membership is very important and order does not play a significant role.
 
 ---
 
@@ -28,7 +36,30 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is a tool for building anonymous function objects. It takes parameters and a single expression, and the value of the expression is evaluated and returned. It is used when a relatively simple function is only expected to be used once (e.g., functions that take in other functions as arguments). Using lambda can improve the readability of the program as well.
+
+Example i:
+"""
+Lambda function that triples the input value.
+"""
+triple = lambda x: x * 3
+print (triple(3))
+
+Example ii:
+"""
+Lambda function that sorts the list in custom order.
+"""
+grocery = [{'pomegranate': 3, 'blueberry': 1, 'cherry': 6}, {'pomegranate': 5, 'blueberry': 2, 'cherry': 4}]
+grocery.sort(key=lambda x: x['cherry'])
+print(grocery)
+
+Example iii:
+"""
+Lambda function that filters out odd numbers.
+"""
+even = [52, 7, 14, 80, 29, 36]
+even_filtered = list(filter(lambda x: (x % 2 == 0), even))
+print even2
 
 ---
 
@@ -36,7 +67,34 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehension is a tool for deriving one list from an existing list. Each element in the list can be transformed as needed. Map is used to build one list while building another, whereas filter is used to only select some of the elements using conditional statements. Below are examples and equivalents with map and filter, followed by examples of set comprehension and dictionary comprehension.
+
+Map:
+
+def add(x):
+    add = []
+    for i in x:
+        add.append(i + 2)
+    return add
+    
+def add(x):
+    return [i + 2 for i in x]
+
+Filter:
+
+def even(x):
+    even = []
+    for i in x:
+        if i % 2 == 0:
+            even.append(i)
+    return even
+
+def even(x):
+    return [i for i in x if i % 2 == 0]
+
+{x**2 for x in range(10)}
+
+{x: x**2 for x in range(5)}
 
 ---
 
@@ -51,7 +109,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> The answer is 937 days.
 
 b.  
 ```
@@ -59,7 +117,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> The answer is 513 days.
 
 c.  
 ```
@@ -67,7 +125,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> The answer is 7850 days.
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
